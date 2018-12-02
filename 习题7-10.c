@@ -24,6 +24,7 @@ int main()
 {
 	int cont = 0,word = 0;
 	char str1[80];
+	printf("please enter a sentence.\n");
 	gets(str1);
 	for (int i = 0; i < strlen(str1); i++)
 	{
