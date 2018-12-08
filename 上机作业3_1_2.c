@@ -1,6 +1,6 @@
-//µØÖ·´«µİÊµÏÖ¾ØÕó×ªÖÃ
+//ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½Êµï¿½Ö¾ï¿½ï¿½ï¿½×ªï¿½ï¿½
 #include<stdio.h>
-void transpose(char mt2[4][4])
+void transpose(int mt2[4][4])
 {
 	int t;
 	for (int i = 0; i < 3; i++)
@@ -15,7 +15,7 @@ void transpose(char mt2[4][4])
 }
 int main()
 {
-	char mt[4][4] = { 0 };
+	int mt[4][4] = { 0 };
 	for (int i = 0; i < 3; i++)
 	{
 		printf("Please enter the line %d of the martrix, the format is \"a b c\"\n", i + 1);
